@@ -6,18 +6,6 @@ Build plans for a hot wire foam cutter similar to Proxxon Micromot 230/E built f
 
 A home built foam cutter using the same kind of 0.2 mm NiCr 8020 wire used by the Proxxon. Similar but better and unique...
 
-## Operation
-
-When active, the +13V will be used to feed current to the NiCr cutting wire. The arduino will use a PWN output to feed the PON signal to provide appropriate power to the wire.
-
-The idea is to power the arduino with AL5V, and provide the following from it.
-
-  - Pressing the power button will toggle the arduino program between idle and operational.
-  - Pressing |< or >| will decrease or increase the settings for wire temperature, with the least being TBD and the most corresponding to a 1 A current. The setting should be indicated somehow... Visual or sound?
-  - Pressing a foot pedal will turn on the power to heat the wire, based on the |< / >| setting. I.e. it will shift the state between waiting and active. There should probably be a visual cue too.
-
-The settings should provide an even interval of cutting powers between the lowest meaningful value and the highest value which is useful and doesn't overload anything. In between these limits, the settings should vary the PWM ratio / voltage so that the power intervals, which are proportional to the voltages squared, are even. Wire resistance for 30 cm was measured to 13 Ohms, suggesting that the upper limit will be 100% PWM ratio.
-
 ## Parts
 
 The only things I use from the blue-ray player is the case, power led, buttons and the power supply.
@@ -56,3 +44,16 @@ I hope that I will get a fairly stable and controlled output voltage by controll
 ### Pedal
 
 Two pieces of plywood connected with a hinge, with a micro switch, a spring and a stop block between. A two-wire cable.
+
+## Operation
+
+When active, the +13V will be used to feed current to the NiCr cutting wire. The arduino will use a PWN output to feed the PON signal to provide appropriate power to the wire.
+
+The idea is to power the arduino with AL5V, and provide the following from it.
+
+  - Pressing the power button will toggle the arduino program between idle and operational.
+  - Pressing |< or >| will decrease or increase the settings for wire temperature, with the least being TBD and the most corresponding to a 1 A current. The setting should be indicated somehow... Visual or sound?
+  - Pressing a foot pedal will turn on the power to heat the wire, based on the |< / >| setting. I.e. it will shift the state between waiting and active. There should probably be a visual cue too.
+
+The settings should provide an even interval of cutting powers between the lowest meaningful value and the highest value which is useful and doesn't overload anything. In between these limits, the settings should vary the PWM ratio / voltage so that the power intervals, which are proportional to the voltages squared, are even. Wire resistance for 30 cm was measured to 13 Ohms, suggesting that the upper limit will be 100% PWM ratio.
+
