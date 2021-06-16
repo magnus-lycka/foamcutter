@@ -12,7 +12,15 @@ The only things I use from the blue-ray player is the case, power led, buttons a
 
 ### Case
 
-The blue-ray player case is the wire cutter case. The top surface is fairly smooth, but it should probably be reinforced with wood on the inside to make it possible to make a T-track for attachments such as fence or a circle/cone guide.
+The blue-ray player case is the wire cutter case.
+To make a working surface which is flat and has T-tracks to fasten fence etc,
+there could be a 12-16 mm MDF board with a 3-4 mm HDF board on top of it. The T-tracks are built from a narrow slot in the thing HDF board with a wider slot in the MDF below it
+
+    ==== ==== HDF board
+    ###   ###
+    ###   ### MDF board
+    ###   ###
+    --------- BD steel case
 
 Inside the case, the power supply section should be well isolated from moving or accessible parts.
 
