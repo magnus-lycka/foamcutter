@@ -16,11 +16,11 @@ The blue-ray player case is the wire cutter case.
 To make a working surface which is flat and has T-tracks to fasten fence etc,
 there could be a 12-16 mm MDF board with a 3-4 mm HDF board on top of it. The T-tracks are built from a narrow slot in the thing HDF board with a wider slot in the MDF below it
 
-    ==== ==== HDF board
-    ###   ###
-    ###   ### MDF board
-    ###   ###
-    --------- BD steel case
+    ========  ========   HDF board
+    #####        #####
+    #####        #####   MDF board
+    #####        #####
+    ------------------   BD steel case
 
 Inside the case, the power supply section should be well isolated from moving or accessible parts.
 
