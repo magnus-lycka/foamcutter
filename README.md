@@ -28,7 +28,7 @@ Inside the case, the power supply section should be well isolated from moving or
 
 It should be convenient to change wire without opening the entire case. One option is to make a hole in the bottom of the case, under the wire. The lower end of the wire should be electrically connected to the ground, and the case is connected to signal ground, so having the wire go through a metal hole in the case should be electrically unproblematic. The issue might be the thin metal wire and tear against some sharp edge.
 
-One option could be to have some metal thingie with an electrical wire properly connected to the chassis, and a hole where the NiCr wire is locked with a screw. Then a spiral spring might be placed on the NiCr wire top of the thingie before it's pulle through the hole in the chassis. Maybe it's enough to have a spring up by the bow.
+One option could be to have some metal thingie with an electrical wire properly connected to the chassis, and a hole where the NiCr wire is locked with a screw. Then a spiral spring might be placed on the NiCr wire top of the thingie before it's pulled through the hole in the chassis. Maybe it's enough to have a spring up by the bow.
 
 #### T-track
 
